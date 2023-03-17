@@ -1,0 +1,21 @@
+.container{
+    display:flex;
+    flex-direction:column;
+}
+
+.calendar-box{
+    display:flex;
+}
+
+.calendar-box div{
+    flex:1;
+}
+
+th, tr ,table , td{
+    border:1px solid black;
+}
+
+.weekDays{
+  display:flex;
+  justify-content:end;
+}
