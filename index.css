@@ -16,6 +16,14 @@ th, tr ,table , td{
 }
 
 .weekDays{
-  display:flex;
-  justify-content:end;
+    display:flex;
+    position:relative;
+    justify-content:end;
+    align:right;
+    margin:auto;
+    text-align:right;
+}
+
+.weekDays td{
+    background-color: red;
 }
